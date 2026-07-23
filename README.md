@@ -11,8 +11,8 @@ Proyecto profesional de automatización utilizando **Selenium 4 WebDriver** en *
 ---
 
 ## 🌐 Demo en Vivo & Reportes
-- 🔗 **Aplicación Web Desplegada**: `https://<tu-usuario>.github.io/<tu-repositorio>/`
-- 📊 **Reporte Interactivo de Pruebas HTML**: `https://<tu-usuario>.github.io/<tu-repositorio>/reports/report.html`
+- 🔗 **Aplicación Web Desplegada**: [https://yoelalmiron1997.github.io/selenium-portfolio-3d/](https://yoelalmiron1997.github.io/selenium-portfolio-3d/)
+- 📊 **Reporte Interactivo de Pruebas HTML**: [https://yoelalmiron1997.github.io/selenium-portfolio-3d/reports/report.html](https://yoelalmiron1997.github.io/selenium-portfolio-3d/reports/report.html)
 
 ---
 
