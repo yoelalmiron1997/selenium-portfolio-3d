@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTest
+.pytest_cache/
+
+# Environments
+.env
+venv/
+env/
+ENV/
+
+# Chrome / Webdriver cache
+.wdm/
+
+# Logs
+*.log
