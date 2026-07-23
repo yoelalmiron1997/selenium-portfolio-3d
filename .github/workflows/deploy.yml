@@ -1,0 +1,53 @@
+name: Selenium QA & Scraper Deployment
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: '0 6 * * *' # Ejecutar diariamente a las 6:00 AM UTC
+  workflow_dispatch: # Permitir ejecución manual desde GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  build-test-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Código Fuente
+        uses: actions/checkout@v3
+
+      - name: Configurar Entorno Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Instalar Google Chrome Headless
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Instalar Dependencias de Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ejecutar Selenium Scraper Bot (Actualización de Precios)
+        run: |
+          python selenium_scraper.py
+
+      - name: Ejecutar Suite de Pruebas E2E Selenium (PyTest)
+        run: |
+          mkdir -p reports
+          pytest tests/ --html=reports/report.html --self-contained-html
+
+      - name: Desplegar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages

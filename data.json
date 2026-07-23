@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Impresora 3D Creality Ender 3 V2 Neo",
+        "type": "impresora",
+        "price": 29800000.0,
+        "store": "Proyecto Color",
+        "storeUrl": "https://proyectocolor.com.ar",
+        "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Ender+3+V2+Neo"
+    },
+    {
+        "id": 2,
+        "name": "Impresora 3D Bambu Lab A1 Mini Combo",
+        "type": "impresora",
+        "price": 335212.94,
+        "store": "3D Insumos",
+        "storeUrl": "https://3dinsumos.com.ar",
+        "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Bambu+Lab+A1"
+    },
+    {
+        "id": 3,
+        "name": "Filamento PLA 1.75mm 1Kg Grilon3",
+        "type": "filamento",
+        "price": 29800000.0,
+        "store": "Proyecto Color",
+        "storeUrl": "https://proyectocolor.com.ar",
+        "image": "https://placehold.co/400x300/1a1a2e/ff003c?text=PLA+Grilon3"
+    },
+    {
+        "id": 4,
+        "name": "Filamento PETG High Speed 1Kg PrintaLot",
+        "type": "filamento",
+        "price": 7999990.0,
+        "store": "Laboratorio 3D",
+        "storeUrl": "https://laboratorio3d.com.ar",
+        "image": "https://placehold.co/400x300/1a1a2e/ff003c?text=PETG+PrintaLot"
+    },
+    {
+        "id": 5,
+        "name": "Sistema Swap y Boquillas A1 Mini",
+        "type": "accesorio",
+        "price": 335212.94,
+        "store": "3D Insumos",
+        "storeUrl": "https://3dinsumos.com.ar",
+        "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Sistema+Swap+A1"
+    }
+]

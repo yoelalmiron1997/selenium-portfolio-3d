@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador 3D - Precios de Impresión 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glow-background"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Encuentra el mejor precio para <br><span class="highlight">Impresión 3D</span></h1>
+            <p>Comparamos precios de impresoras, filamentos y accesorios en las mejores tiendas de Argentina.</p>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar PLA, Ender 3, Resina..." autocomplete="off">
+                <button id="searchButton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="filters">
+            <h3>Categorías</h3>
+            <div class="filter-group">
+                <label class="custom-radio">
+                    <input type="radio" name="category" value="all" checked>
+                    <span class="radio-btn"></span> Todos
+                </label>
+                <label class="custom-radio">
+                    <input type="radio" name="category" value="impresora">
+                    <span class="radio-btn"></span> Impresoras 3D
+                </label>
+                <label class="custom-radio">
+                    <input type="radio" name="category" value="filamento">
+                    <span class="radio-btn"></span> Filamentos
+                </label>
+            </div>
+
+            <h3>Tiendas</h3>
+            <div class="filter-group" id="storeFilters">
+                <!-- Se llenará dinámicamente -->
+            </div>
+        </aside>
+
+        <section class="results-section">
+            <div class="results-header">
+                <h2 id="resultsTitle">Todos los productos</h2>
+                <div class="sort-container">
+                    <select id="sortSelect">
+                        <option value="price-asc">Precio: Menor a Mayor</option>
+                        <option value="price-desc">Precio: Mayor a Menor</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="loader" class="loader hidden">
+                <div class="spinner"></div>
+                <p>Buscando las mejores ofertas...</p>
+            </div>
+
+            <div id="resultsGrid" class="results-grid">
+                <!-- Las tarjetas de productos se inyectarán aquí -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Comparador 3D. MVP de prueba.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
