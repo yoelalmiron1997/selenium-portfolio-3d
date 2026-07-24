@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Impresora 3D Bambu Lab A1 Mini Combo",
         "type": "impresora",
-        "price": 18239.29,
+        "price": 28049.65,
         "store": "3D Insumos",
         "storeUrl": "https://3dinsumos.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Bambu+Lab+A1"
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "Sistema Swap y Boquillas A1 Mini",
         "type": "accesorio",
-        "price": 18239.29,
+        "price": 28049.65,
         "store": "3D Insumos",
         "storeUrl": "https://3dinsumos.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Sistema+Swap+A1"
