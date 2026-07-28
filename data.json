@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Impresora 3D Bambu Lab A1 Mini Combo",
         "type": "impresora",
-        "price": 52235.21,
+        "price": 18239.29,
         "store": "3D Insumos",
         "storeUrl": "https://3dinsumos.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Bambu+Lab+A1"
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "Filamento PETG High Speed 1Kg PrintaLot",
         "type": "filamento",
-        "price": 2236.11,
+        "price": 6108.0,
         "store": "Laboratorio 3D",
         "storeUrl": "https://laboratorio3d.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/ff003c?text=PETG+PrintaLot"
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "Sistema Swap y Boquillas A1 Mini",
         "type": "accesorio",
-        "price": 52235.21,
+        "price": 18239.29,
         "store": "3D Insumos",
         "storeUrl": "https://3dinsumos.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Sistema+Swap+A1"
