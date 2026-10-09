@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Impresora 3D Creality Ender 3 V2 Neo",
         "type": "impresora",
-        "price": 1130.0,
+        "price": 385000.0,
         "store": "Proyecto Color",
         "storeUrl": "https://proyectocolor.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Ender+3+V2+Neo"
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Impresora 3D Bambu Lab A1 Mini Combo",
         "type": "impresora",
-        "price": 21100.33,
+        "price": 28049.65,
         "store": "3D Insumos",
         "storeUrl": "https://3dinsumos.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Bambu+Lab+A1"
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Filamento PLA 1.75mm 1Kg Grilon3",
         "type": "filamento",
-        "price": 1130.0,
+        "price": 18500.0,
         "store": "Proyecto Color",
         "storeUrl": "https://proyectocolor.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/ff003c?text=PLA+Grilon3"
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "Sistema Swap y Boquillas A1 Mini",
         "type": "accesorio",
-        "price": 21100.33,
+        "price": 28049.65,
         "store": "3D Insumos",
         "storeUrl": "https://3dinsumos.com.ar",
         "image": "https://placehold.co/400x300/1a1a2e/00f0ff?text=Sistema+Swap+A1"
